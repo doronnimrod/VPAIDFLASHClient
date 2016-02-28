@@ -41,7 +41,7 @@ function flashVPAIDWrapperLoaded(err) {
             adUnit.getAdIcons(function (err, result) {
                 console.log('getAdIcons', result);
             });
-            adUnit.setAdVolume(10, function (err, result) {
+            adUnit.setAdVolume(1, function (err, result) {
                 console.log('setAdVolume', result);
             });
             adUnit.getAdVolume(function (err, result) {
